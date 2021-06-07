@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<center>
+    <div class="d-flex justify-content-center">
+        <h1>Login</h1>
+        <form>
+            <input type="text" class="form-control" placeholder="Username">
+            <input type="password" class="form-control" placeholder="Password">
+            <span class="text-warning">@TempData["ErrMsg"]</span>
+            <input type="submit" class="btn btn-block" />
+        </form>
+       
+    </div>
+</center>

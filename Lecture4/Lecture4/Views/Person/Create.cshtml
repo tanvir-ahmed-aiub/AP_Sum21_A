@@ -1,0 +1,17 @@
+﻿@model Lecture4.Models.Person
+<h2>Create Person</h2>
+<!--<form action="/Person/CreatePerson" method="post"  class="d-flex justify-content-center">-->
+<form action="/Person/Create" method="post" class="d-flex justify-content-center">
+    <input type="text" class="form-control" name="Name" placeholder="Name">
+    @Html.ValidationMessageFor(model => model.Name,"",new { @class="text-danger"})
+    <input type="date" class="form-control" name="Dob" placeholder="Date">
+    <input type="text" class="form-control" name="Address" placeholder="Address">
+    <input type="submit" class="btn btn-danger">
+
+</form>
+<br>
+
+
+
+
+
