@@ -9,7 +9,7 @@ namespace Lecture5.Models
     public class Product
     {
         public int Id { get; set; }
-        [Required(ErrorMessage ="Please put your name")]
+        [Required(ErrorMessage ="Please put name")]
         [MaxLength(5,ErrorMessage ="Max Length 5")]
         public string Name { get; set; }
         [Required]

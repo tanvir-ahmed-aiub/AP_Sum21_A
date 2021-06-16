@@ -1,0 +1,27 @@
+﻿@model Lecture5.Models.ViewModel.ProductCategory
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+<div>
+    <form action="/Product/Create" method="post">
+        <input type="text" name="Name" value="@Model.Product.Name" class="form-control" placeholder="Onion..">
+        @Html.ValidationMessage("Name", htmlAttributes:new { @class="text-danger"})
+        <select name="CategoryId" class="form-control">
+            <option value="null" selected disabled>--Select--</option>
+            @foreach (var c in Model.Categories)
+            {
+                <option value="@c.Id">@c.Name</option>
+            }
+        </select>
+        @Html.ValidationMessage("CategoryId", "", "span")
+        <input type="text" name="Price" value="@Model.Product.Price" class="form-control" placeholder="Price..">
+        @Html.ValidationMessage("Price", "", "span")
+        <input type="text" name="Qty" class="form-control" placeholder="Quantity..">
+        @Html.ValidationMessage("Qty", "", "span")
+        <textarea class="form-control" name="Description"></textarea>
+        @Html.ValidationMessage("Description", "", "span")
+        <input type="submit" class="btn btn-block" value="Add" />
+    </form>
+</div>
