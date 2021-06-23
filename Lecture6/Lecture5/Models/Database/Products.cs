@@ -44,7 +44,11 @@ namespace Lecture5.Models.Database
                 products.Add(p);
             }
             conn.Close();
-            return products;
+            /*var test = (from p in products
+                       where p.Price > 75 && p.Qty >12                      
+                       select p).ToList();*/
+            var test = products.Where(p => p.Price > 75 && p.Qty > 12).ToList();
+            return test;
         }
         public Product Get(int id) {
             Product p = null;

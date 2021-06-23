@@ -1,0 +1,22 @@
+﻿@model IEnumerable<CodeFirstEF.Models.OrderDetail>
+
+<h4>Order Info</h4>
+
+<h3>Ordered Item Details</h3>
+<table class="table table-condensed">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Price
+        </th>
+    </tr>
+    @foreach (var p in Model) { 
+        <tr>
+            <td>@p.Product.Name</td>
+            <td>@p.Product.Price</td>
+        </tr>
+    }
+
+</table>

@@ -7,6 +7,7 @@ using System.Dynamic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace Lecture5.Controllers
 {
@@ -21,6 +22,7 @@ namespace Lecture5.Controllers
 
         public ActionResult Create() 
         {
+            
             Product p = new Product();
             Database db = new Database();
             ProductCategory combodata = new ProductCategory();
