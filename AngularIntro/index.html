@@ -1,0 +1,78 @@
+<html >
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+		<script>
+			var app = angular.module("myApp",[]);
+			app.controller("demo",function($scope,$http){
+				var dob = "12-12-2021";
+				$scope.dob = "10-12-2021";
+				$scope.names = ["Tanvir","sabbir","karim","rahim"];
+				$scope.i=1;
+				
+				$http.get("https://localhost:44368/api/Product").then(function(response){
+					$scope.products = response.data;
+				},
+				function(errr){});
+			});
+			
+		</script>
+	</head>
+	<body ng-app="myApp">
+		<div >
+			<input type="text" ng-model="name" ng-init="id=1">
+			<input type="text" ng-model="name2" >
+			<p>{{name + " " +name2}}</p><br>
+			dsgdfg
+			dfgdfgfd
+			dgdfgdfg
+			dgdfgdfg
+			dgdfgdfg
+			<h1>{{name}}</h1>
+			dsgdfg
+			dfgdfgfd
+			dgdfgdfg
+			dgdfgdfg
+			dgdfgdfg
+			<h5>{{name}}</h5>
+			<h6>{{id}}</h6>
+		</div>
+		<div ng-init="fname='tanvir'; lname='ahmed'; a =10;b=15;">
+		
+			My name is {{fname + ' ' +lname}}
+			<br>
+			The resuls is {{a + b}}
+			Written from another div{{dob}}
+		</div>
+		
+		<div ng-controller="demo">
+			<p>Written from controlled div{{dob}}</p>
+			<span></span>
+			<p> Names</p>
+			<ul>
+				<li ng-repeat="name in names">{{name}}</li>
+			</ul>
+			<table border="1">
+				<tr ng-repeat="name in names" >
+					<td>{{$index}}</td>
+					<td>{{name}}</td>
+					
+				</tr>
+			</table>
+			<table border="1" style="border-collapse:collapse">
+				<tr>
+					<td>Id</td>
+					<td>Name</td>
+					<td>Price</td>
+					<td>Quantity</td>
+				</tr>
+				<tr ng-repeat="p in products">
+					<td>{{p.Id}}</td>
+					<td>{{p.Name}}</td>
+					<td>{{p.Price}}</td>
+					<td>{{p.Qty}}</td>
+				</tr>
+			</table>
+		</div>
+		
+	</body>
+</html>

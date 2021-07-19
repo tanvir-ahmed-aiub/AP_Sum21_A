@@ -1,0 +1,16 @@
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\bin\Debug\BLL.dll
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\bin\Debug\BLL.pdb
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\bin\Debug\BEL.dll
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\bin\Debug\DAL.dll
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\bin\Debug\EntityFramework.dll
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\bin\Debug\BEL.pdb
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\bin\Debug\DAL.pdb
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\bin\Debug\DAL.dll.config
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\bin\Debug\EntityFramework.xml
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\obj\Debug\BLL.csproj.CopyComplete
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\obj\Debug\BLL.dll
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\obj\Debug\BLL.pdb
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\bin\Debug\AutoMapper.dll
+F:\Teaching\AP_Sum21\4-tier_web_api\BLL\bin\Debug\AutoMapper.xml

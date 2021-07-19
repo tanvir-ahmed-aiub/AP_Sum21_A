@@ -1,0 +1,6 @@
+F:\Teaching\AP_Sum21\4-tier_web_api\BEL\bin\Debug\BEL.dll
+F:\Teaching\AP_Sum21\4-tier_web_api\BEL\bin\Debug\BEL.pdb
+F:\Teaching\AP_Sum21\4-tier_web_api\BEL\obj\Debug\BEL.csprojAssemblyReference.cache
+F:\Teaching\AP_Sum21\4-tier_web_api\BEL\obj\Debug\BEL.csproj.CoreCompileInputs.cache
+F:\Teaching\AP_Sum21\4-tier_web_api\BEL\obj\Debug\BEL.dll
+F:\Teaching\AP_Sum21\4-tier_web_api\BEL\obj\Debug\BEL.pdb

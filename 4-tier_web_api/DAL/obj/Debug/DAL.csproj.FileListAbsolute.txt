@@ -1,0 +1,12 @@
+F:\Teaching\AP_Sum21\4-tier_web_api\DAL\bin\Debug\DAL.dll.config
+F:\Teaching\AP_Sum21\4-tier_web_api\DAL\bin\Debug\DAL.dll
+F:\Teaching\AP_Sum21\4-tier_web_api\DAL\bin\Debug\DAL.pdb
+F:\Teaching\AP_Sum21\4-tier_web_api\DAL\bin\Debug\EntityFramework.dll
+F:\Teaching\AP_Sum21\4-tier_web_api\DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\Teaching\AP_Sum21\4-tier_web_api\DAL\bin\Debug\EntityFramework.xml
+F:\Teaching\AP_Sum21\4-tier_web_api\DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\Teaching\AP_Sum21\4-tier_web_api\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+F:\Teaching\AP_Sum21\4-tier_web_api\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\Teaching\AP_Sum21\4-tier_web_api\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\Teaching\AP_Sum21\4-tier_web_api\DAL\obj\Debug\DAL.dll
+F:\Teaching\AP_Sum21\4-tier_web_api\DAL\obj\Debug\DAL.pdb
