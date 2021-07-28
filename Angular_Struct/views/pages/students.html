@@ -1,0 +1,16 @@
+<div class="">
+    <h1>Students List</h1>
+    <h5>{{lname}}</h5>
+    <table border="1">
+      <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Department</th>
+      </tr>
+      <tr ng-repeat="s in students">
+        <td>{{s.Id}}</td>
+        <td>{{s.Name}}</td>
+        <td>{{s.DepartmentName}}</td>
+      </tr>
+    </table>
+</div>

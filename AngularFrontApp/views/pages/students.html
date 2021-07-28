@@ -1,0 +1,65 @@
+<!--== BODY INNER CONTAINER ==-->
+<div class="sb2-2">
+    <!--== breadcrumbs ==-->
+    <div class="sb2-2-2">
+        <ul>
+            <li><a href="index-2.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            </li>
+            <li class="active-bre"><a href="#"> Users(Students)</a>
+            </li>
+            <li class="page-back"><a href="index-2.html"><i class="fa fa-backward" aria-hidden="true"></i> Back</a>
+            </li>
+        </ul>
+    </div>
+
+    <!--== User Details ==-->
+    <div class="sb2-2-3">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box-inn-sp">
+                    <div class="inn-title">
+                        <h4>Student Details</h4>
+                        <p>All about students like name, student id, phone, email, country, city and more</p>
+                    </div>
+                    <div class="tab-inn">
+                        <div class="table-responsive table-desi">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>User</th>
+                                        <th>Name</th>
+                                        <th>Department</th>
+                                        <th>Email</th>
+                                        <th>Country</th>
+                                        <th>Id</th>
+                                        <th>Date of birth</th>
+              <th>Status</th>
+              <th>View</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng-repeat="s in students">
+                                        <td><span class="list-img"><img src="content/images/user/1.png" alt=""></span>
+                                        </td>
+                                        <td><a href="#"><span class="list-enq-name">{{s.Name}}</span><span class="list-enq-city">Illunois, United States</span></a>
+                                        </td>
+                                        <td>{{s.DepartmentName}}</td>
+                                        <td>chadengle@dummy.com</td>
+                                        <td>united states</td>
+                                        <td>ST17241</td>
+              <td>03 Jun 1990</td>
+                                        <td>
+                                            <span class="label label-success">Active</span>
+                                        </td>
+              <td><a href="admin-student-details.html" class="ad-st-view">View</a></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

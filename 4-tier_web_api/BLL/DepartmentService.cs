@@ -11,9 +11,6 @@ namespace BLL
 {
     public class DepartmentService
     {
-        static DepartmentService() {
-            AutoMapper.Mapper.Initialize(config => config.AddProfile<AutoMapperSettings>());
-        }
         public static List<string> GetDepartmentNames() {
             return DepartmentRepo.GetDepartmentNames();
         }

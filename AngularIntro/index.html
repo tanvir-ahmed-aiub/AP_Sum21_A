@@ -9,6 +9,17 @@
 				$scope.names = ["Tanvir","sabbir","karim","rahim"];
 				$scope.i=1;
 				
+				$http.get("https://localhost:44387/api/Student/GetAll").then(function(response){
+					$scope.students = response.data;
+				},
+				function(errr){});
+			});
+			app.controller("demo2",function($scope,$http){
+				var dob = "12-12-2021";
+				$scope.dob = "10-12-2021";
+				$scope.names = ["Tanvir","sabbir","karim","rahim"];
+				$scope.i=1;
+				
 				$http.get("https://localhost:44368/api/Product").then(function(response){
 					$scope.products = response.data;
 				},
@@ -62,16 +73,19 @@
 				<tr>
 					<td>Id</td>
 					<td>Name</td>
-					<td>Price</td>
-					<td>Quantity</td>
+					<td>Department</td>
+					
 				</tr>
-				<tr ng-repeat="p in products">
-					<td>{{p.Id}}</td>
-					<td>{{p.Name}}</td>
-					<td>{{p.Price}}</td>
-					<td>{{p.Qty}}</td>
+				<tr ng-repeat="s in students">
+					<td>{{s.Id}}</td>
+					<td>{{s.Name}}</td>
+					<td>{{s.DepartmentName}}</td>
+					
 				</tr>
 			</table>
+		</div>
+		<div ng-controller="demo2">
+			
 		</div>
 		
 	</body>

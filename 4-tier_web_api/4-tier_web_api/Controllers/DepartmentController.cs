@@ -6,9 +6,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace _4_tier_web_api.Controllers
 {
+    
     public class DepartmentController : ApiController
     {
         [Route("api/Department/Names")]

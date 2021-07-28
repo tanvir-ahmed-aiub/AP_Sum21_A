@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+  <head>
+    <title>EEducation Master Template</title>
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="EEducation master is one of the best eEducational html template, it's suitable for all eEducation websites like university,college,school,online eEducation,tution center,distance eEducation,computer eEducation">
+    <meta name="keyword" content="eEducation html template, university template, college template, school template, online eEducation template, tution center template">
+    <!-- FAV ICON(BROWSER TAB ICON) -->
+    <link rel="shortcut icon" href="content/images/fav.ico" type="image/x-icon">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700%7CJosefin+Sans:600,700" rel="stylesheet">
+    <!-- FONTAWESOME ICONS -->
+    <link rel="stylesheet" href="content/css/font-awesome.min.css">
+    <!-- ALL CSS FILES -->
+    <link href="content/css/materialize.css" rel="stylesheet">
+    <link href="content/css/bootstrap.css" rel="stylesheet" />
+    <link href="content/css/style.css" rel="stylesheet" />
+    <!-- RESPONSIVE.CSS ONLY FOR MOBILE AND TABLET VIEWS -->
+    <link href="content/css/style-mob.css" rel="stylesheet" />
+
+  </head>
+  <body ng-app="myApp">
+    <div ng-include="'views/inc/top_nav.html'"></div>
+    <div class="container-fluid sb2">
+        <div class="row">
+            <div class="sb2-1">
+                <!--== USER INFO ==-->
+                <div class="sb2-12">
+                    <ul>
+                        <li><img src="content/images/placeholder.jpg" alt="">
+                        </li>
+                        <li>
+                            <h5>Victoria Baker <span> Santa Ana, CA</span></h5>
+                        </li>
+                        <li></li>
+                    </ul>
+                </div>
+                  <div ng-include="'views/inc/side_nav.html'"></div>
+              </div>
+            <div ng-view> </div>
+          </div>
+      </div>
+
+  </body>
+</html>
+
+<!--Template JS Residing in Content-->
+<script src="content/js/main.min.js"></script>
+<script src="content/js/bootstrap.min.js"></script>
+<script src="content/js/materialize.min.js"></script>
+<script src="content/js/custom.js"></script>
+<!-- Angular App JS-->
+<script src="app/lib/angular.min.js"></script>
+<script src="app/lib/angular.route.min.js"></script>
+<script src="app/app.js"></script>
+
+<!-- Add Services here -->
+<script src="app/services/ajax.js"></script>
+
+
+<!-- Add Controllers here -->
+<script src="app/controllers/demo.js"></script>
+<script src="app/controllers/demo2.js"></script>
+<script src="app/controllers/students.js"></script>
+<script src="app/controllers/addstudent.js"></script>
+<script src="app/controllers/departments.js"></script>
+<script src="app/controllers/adddepartment.js"></script>

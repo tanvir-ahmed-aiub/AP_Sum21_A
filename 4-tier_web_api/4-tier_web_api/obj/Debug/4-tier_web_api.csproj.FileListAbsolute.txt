@@ -55,3 +55,6 @@ F:\Teaching\AP_Sum21\4-tier_web_api\4-tier_web_api\bin\EntityFramework.SqlServer
 F:\Teaching\AP_Sum21\4-tier_web_api\4-tier_web_api\bin\EntityFramework.SqlServer.xml
 F:\Teaching\AP_Sum21\4-tier_web_api\4-tier_web_api\bin\AutoMapper.dll
 F:\Teaching\AP_Sum21\4-tier_web_api\4-tier_web_api\bin\AutoMapper.xml
+F:\Teaching\AP_Sum21\4-tier_web_api\4-tier_web_api\bin\System.Web.Cors.dll
+F:\Teaching\AP_Sum21\4-tier_web_api\4-tier_web_api\bin\System.Web.Http.Cors.dll
+F:\Teaching\AP_Sum21\4-tier_web_api\4-tier_web_api\bin\System.Web.Http.Cors.xml

@@ -11,9 +11,6 @@ namespace BLL
 {
     public class StudentService
     {
-        static StudentService() {
-            AutoMapper.Mapper.Initialize(config => config.AddProfile<AutoMapperSettings>());
-        }
         public static void AddStudent(StudentModel model) {
             var data = AutoMapper.Mapper.Map<StudentModel, Student>(model);
             StudentRepo.AddStudent(data);

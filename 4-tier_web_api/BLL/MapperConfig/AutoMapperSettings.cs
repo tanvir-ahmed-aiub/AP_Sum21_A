@@ -12,7 +12,7 @@ namespace BLL.MapperConfig
     public class AutoMapperSettings : Profile
     {
         public AutoMapperSettings() {
-            CreateMap<Department, DepartmentModel>();
+            CreateMap<DepartmentModel, Department>().ForMember(e=>e.Students, d=>d.Ignore());
             CreateMap<Department, DepartmentDetail>();
             CreateMap<StudentModel, Student>().ForMember(e=>e.Department, sm=>sm.Ignore());
            
